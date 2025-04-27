@@ -1,0 +1,128 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(4, 110, 117);
+    margin-top: 0px;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.subHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    font-size: 20px;
+    color: rgb(80, 177, 234);
+    padding-right: 20px;
+}
+.portfolio{
+    padding-left: 20px;
+    color: rgb(255, 253, 253);
+}
+.subHeaderIcon{
+    cursor: pointer
+}
+.middleDot{
+    font-size: 60px;
+    padding: 0 0 0 0;
+    margin-top: 60px;
+    color: pink;
+}
+.heading{
+    display:inline-block
+}
+.main{
+    margin-top: 50px;
+    margin-left: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 20px;
+    font-size: 30px;
+    color: rgb(255, 179, 250);
+}
+.sideBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-right-style: solid;
+    border-right-color: rgb(158, 155, 155);
+    border-top-style: solid;
+    border-top-color: rgb(158, 155, 155);
+    font-size: 20px;
+    color: white;
+    position: fixed;
+    height: 500px;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+.menuIcon{
+    height: 30px;
+    color: white;
+    margin-right: 10px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+    color: pink;
+    width: 40px;
+    height: auto;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:200px;
+    padding-top: 0px;
+    margin-left: 200px;
+    margin-right: 50px;
+    padding-right: 100px;
+    justify-content: center;
+    border-top-style: solid;
+    border-top-color: rgb(255, 179, 250);
+    border-bottom-style: solid;
+    border-bottom-color: rgb(255, 179, 250);
+}
+.header2{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: rgb(255, 179, 250);
+}
+.skillContents{
+    padding-left: 90px;
+}
+.contactDetails{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 400px;
+    padding-right: 200px;
+}
+.contactDetailsIcon{
+    display: flex;
+    justify-content: space-between;
+}
+.contactDetailsHeader{
+    margin-left: 250px;
+    margin-bottom: 25px;
+}
+.phone{
+    margin-bottom: 50px;
+}
