@@ -7,7 +7,10 @@ document.getElementById("one").addEventListener("click", function(){
     scrollToPosition(0);
 })
 document.getElementById("three").addEventListener("click", function(){
-    scrollToPosition(1440);
+    scrollToPosition(1600);
+})
+document.getElementById("four").addEventListener("click", function(){
+    scrollToPosition(2390);
 })
 function scrollToPosition(position){
     window.scrollTo({
